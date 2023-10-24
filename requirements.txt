@@ -1,0 +1,4 @@
+1. Design
+2. Login Signup Verification
+3. Admin Dashboard to add card delete card
+4. Bookmark api
