@@ -252,7 +252,8 @@ const SingleCard = ({ cardData, setCardsData, bookmarks, admin, review }) => {
     } else {
         return (
             // <div className={`${hideOrNot ? 'hidden' : 'display-block'}`}>
-            <div className={`${hideOrNot ? 'hidden' : 'display-block'} bg-white border rounded-lg min-w-[315px] min-h-[425px] m-1.5 flex-grow p-5`}>
+            <div className={`${hideOrNot ? 'hidden' : 'display-block'} bg-white border rounded-lg min-w-[315px] min-h-[425px] m-1.5 flex-grow p-5 flex flex-col justify-between`}>
+
                 <div className='flex justify-center'>
                     <img
                         className='flex-grow rounded-lg max-h-[200px] max-w-[270px]'
@@ -287,7 +288,7 @@ const SingleCard = ({ cardData, setCardsData, bookmarks, admin, review }) => {
                         </button>
                     )}
 
-                    <a className='border px-4 py-2 w-full mt-2 rounded-lg flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300' href={cardData?.siteurl}>
+                    <a target='_blank' className='border px-4 py-2 w-full mt-2 rounded-lg flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300' href={cardData?.siteurl}>
                         Learn More <ArrowUpRightSquare className='inline-block pl-1' size={20} />
                     </a>
 

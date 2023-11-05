@@ -10,7 +10,7 @@ const TopBanner = () => {
     // will fetch top banner content from the database later
 
     return (
-        <div className='hidden'>
+        <div className=''>
             <div className='flex items-center justify-center text-xs py-2.5 text-white' style={divStyle}>
                 <h1 className='hover:text-black transition-all duration-300'>🤖 Search 4,000+ AI tools Ask our bot for help →</h1>
             </div>
